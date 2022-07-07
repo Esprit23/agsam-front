@@ -1,3 +1,47 @@
+:root{
+  --color-primary:#7788ec;
+  --color-danger:#ff7788;
+  --color-success:#44f1b6;
+  --color-warning:#ffbb55;
+  --color-white:#fff;
+  --color-info-dark:#7d8da1;
+  --color-info-lingt:#dce1eb;
+  --color-dark:#363949;
+  --color-ligth:rgba(132 , 139 ,200 , 0.5);
+  --color-primary-variant:#111e88;
+  --color-dark-variant:#677483;
+  --color-background:#f6f6f9;
+  --color-background-aside:gray;
+
+  
+  --padding-1:1.2rem;
+  --card-padding-1:1.2rem;
+  
+  --card-border-radius:2rem;
+  --card-border-1:0.4rem;
+  --card-border-2:0.8rem;
+  --card-border-3:1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-ligth)
+
+}
+/* ====================mode sombre variable============================= */
+.dark-theme-variables{
+  --color-background-aside:rgb(71, 69, 69);
+  --color-danger:#aa0909;
+  --color-success:#066d28;
+  --color-warning:#964e0a;
+  --color-background:#181a1e;
+  --color-primary:rgb(13, 113, 228);
+  --color-white:#282528;
+  --color-ligth:rgba(0 , 0, 0 , 0.4);
+  --color-dark:#edeffd;
+  --color-dark-variant:#e3bdcc;
+  --box-shadow: 0 2rem 3rem var(--color-ligth);
+
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +50,62 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.container{
+  display: flex;
+}
+
+main{ 
+  width: 100%;
+  padding:80px 10px; 
+
+}
+
+.sidebar{
+  background: var(--color-background);
+  color: var(--color-dark);
+  height: 100vh;
+  transition: all 0.75s  ease-in;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size:30px;
+}
+.bars{
+  display: flex;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.link{
+  display: flex;
+  color: #2c2839;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+
+}
+.link:hover{
+  background: var(--color-primary);
+  color:var(--color-dark);
+  transition: all 0.5s;
+} 
+ .active{
+  background: var(--color-primary);
+  color:var(--color-white);
+
+}
+.icon,.link_text{
+  font-size: 20px;
+} 
+.topbar{
+  margin-left: 200px
 }

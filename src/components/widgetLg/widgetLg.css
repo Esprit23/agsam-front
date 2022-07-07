@@ -1,0 +1,35 @@
+.widgetLg{
+    padding: 20px;
+    margin-right: 20px ;
+    border-radius: 10px;
+    flex: 2;
+    box-shadow: 0px 23px 80px -56px rgba(10,10,10,1);
+    -webkit-box-shadow: 0px 23px 80px -56px rgba(10,10,10,1);
+    -moz-box-shadow: 0px 23px 80px -56px rgba(10,10,10,1);
+ 
+}
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetButton .enable{
+  background-color: aliceblue;
+  color: aqua;
+}
+.widgetButton .disable{
+  background-color: aliceblue;
+  color: rgb(233, 35, 35);
+}
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTh{
+    text-align: left;
+    
+}

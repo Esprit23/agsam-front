@@ -1,0 +1,31 @@
+const globalTheme={
+    switchWidth:'40px',
+    switchHeight:'20px',
+    switchPadding:'3px',
+    colorContrastLow:'#d3d3d4',
+    colorWhite:'#fff',
+    switchColorPrimary:'#302c40',
+    switchAnimationDuration:'0.2',
+    gradient:'linear-gradient(122deg, rgba(128,74,216,1)0%,rgba(90,75,217,1)100%)',
+    colorGreen:'#5dc399',
+    colorGray:'#adadad'
+ }
+
+ export const lightTheme={
+    primary:'#fff',
+    secondary:'#f8f8f8',
+    textColor:'#505280',
+    headers:'#585280',
+    headersMenu:'#fff',
+    activeMenu:'585880',
+    ...globalTheme
+ }
+ export const darkTheme={
+    primary:'#302c40',
+    secondary:'#2c2839',
+    textColor:'#fff',
+    headers:'#fff',
+    headersMenu:'585880',
+    activeMenu:'#fff',
+    ...globalTheme
+ }
