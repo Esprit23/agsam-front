@@ -1,5 +1,6 @@
 .Home{
     flex: 12;
+    margin-top: 20px;
 }
 .homeWidgets{
     display: flex;

@@ -13,8 +13,7 @@ export default function WidgetLg() {
           <th className='widgetLgTh'>Libelle</th>
           <th className='widgetLgTh'>Descripton</th>
           <th className='widgetLgTh'>Carcteristique</th>
-          <th className='widgetLgTh'>data Ajout</th>
-          <th className='widgetLgTh'>statu</th>
+          <th className='widgetLgTh'>type</th>
           <th className='widgetLgTh'>photo</th>
         </tr>
         <tr className="widgetLgtr">
@@ -23,50 +22,10 @@ export default function WidgetLg() {
           </td>
           <td className="widgetLgDesc">ordinateur</td>
           <td className="widgetLgCarct">Portable</td>
-          <td className="widgetLgDate">2-juin-2022</td>
-          <td className="widgetLgStatu"><Button type="enable"/></td>
+          <td className="widgetLgStatu">laptop</td>
           <td className="widgetLgPhoto">photo</td>
         </tr>
-        <tr className="widgetLgtr">
-          <td  className="widgetLgArticle">
-            Pc toshiba
-          </td>
-          <td className="widgetLgDesc">ordinateur</td>
-          <td className="widgetLgCarct">Portable</td>
-          <td className="widgetLgDate">2-juin-2022</td>
-          <td className="widgetLgStatu"><Button type="disable"/></td>
-          <td className="widgetLgPhoto">photo</td>
-        </tr>
-        <tr className="widgetLgtr">
-          <td  className="widgetLgArticle">
-            Pc toshiba
-          </td>
-          <td className="widgetLgDesc">ordinateur</td>
-          <td className="widgetLgCarct">Portable</td>
-          <td className="widgetLgDate">2-juin-2022</td>
-          <td className="widgetLgStatu"><Button type="enable "/></td>
-          <td className="widgetLgPhoto">photo</td>
-        </tr>
-        <tr className="widgetLgtr">
-          <td  className="widgetLgArticle">
-            Pc toshiba
-          </td>
-          <td className="widgetLgDesc">ordinateur</td>
-          <td className="widgetLgCarct">Portable</td>
-          <td className="widgetLgDate">2-juin-2022</td>
-          <td className="widgetLgStatu"><Button type="enable "/></td>
-          <td className="widgetLgPhoto">photo</td>
-        </tr>
-        <tr className="widgetLgtr">
-          <td  className="widgetLgArticle">
-            Pc toshiba
-          </td>
-          <td className="widgetLgDesc">ordinateur</td>
-          <td className="widgetLgCarct">Portable</td>
-          <td className="widgetLgDate">2-juin-2022</td>
-          <td className="widgetLgStatu"><Button type="enable "/></td>
-          <td className="widgetLgPhoto">photo</td>
-        </tr>
+
       </table>
     </div>
   )

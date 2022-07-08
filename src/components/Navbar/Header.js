@@ -100,7 +100,7 @@ export default function SearchAppBar({isLoggedIn}) {
     <AppBar position="relative">
       <Container maxWidth="xl"display='flex' style={{sm:{marginLeft:"240px"} , backgroundColor:'#363949' }} >
         <Toolbar disableGutters  >
-          {/* {isLoggedIn && */}
+          {isLoggedIn &&
                <>        
               <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                 <IconButton
@@ -189,7 +189,7 @@ export default function SearchAppBar({isLoggedIn}) {
                
 
           </>
-        {/* } */}
+         } 
         </Toolbar>
       </Container>
     </AppBar>

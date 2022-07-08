@@ -45,14 +45,14 @@ export default function SignUp() {
     navigate('/')
   };
   const paperStyle={padding:20,width:500,margin:"20px auto" , borderRadius:"18px"}
-  const containerStyle={bgcolor:'secondary.main'}
+  const containerStyle={bgcolor:'primary.main'}
 
   return (
     <ThemeProvider theme={theme}>
       <Container style={containerStyle} component="main" maxWidth="xs">
       <Grid>
-          <Paper elevation={10} style={paperStyle}>
-          <CssBaseline />
+          <Paper elevation={1} style={paperStyle}>
+          
         <Box
           sx={{
             marginTop: 8,
@@ -61,8 +61,9 @@ export default function SignUp() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+          <Avatar sx={{ m: 2, bgcolor: '#000' }}>
           </Avatar>
+          <CssBaseline />
           <Typography component="h1" variant="h5">
             Registre
           </Typography>

@@ -1,0 +1,118 @@
+.article{
+    flex: 4;
+    padding: 20px;
+}
+.articleTitlecontenair{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.articleAddButton{
+    width: 80px;
+    border: none;
+    padding:5px ;
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer ;
+}
+.articleTop{
+    display: flex;
+}
+.aritcleTopRigth,
+.articleTopLeft{
+    flex: 1;
+    
+}
+.aritcleTopRigth{
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -20px rgba(0,0,0,1);
+    -webkit-box-shadow:  0px 0px 15px -10px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 15px -15px rgba(0,0,0,0.75);
+}
+.articleImg{
+    width: 100px;
+    height: 70px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.ArticleInfo{
+    display: flex;
+}
+.articleName{
+    font-weight: 600 ;
+    font-family: serif;
+    font-size: 35px;
+}
+.articleInfoBottom{
+    margin-top: 10px;
+}
+.articleInfoItem{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.articleInfoValue{
+    font-weight: 300;    
+    color: gray;
+}
+.articleBottom{
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -20px rgba(0,0,0,1);
+    -webkit-box-shadow:  0px 0px 15px -10px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 15px -15px rgba(0,0,0,0.75);
+}
+.articleForm{
+    display: flex;
+    justify-content: space-between;
+}
+.articleFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.articleFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.articleFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.articleFormLeft>select{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.articleImgMAJ{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.articleFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.articleUpload{
+    display: flex;
+    align-items: center;
+}
+.articleBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+}
