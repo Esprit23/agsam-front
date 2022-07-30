@@ -7,13 +7,13 @@ import ListSubheader from '@mui/material/ListSubheader';
 
 
 export default function ProfilUser() {
-    const rows: GridRowsProp = [
+    const rows = [
         { id: 1, col0:1,col3:'Admin',col1: 'esprit', col2: 'mui@hgh.com' },
         { id: 2,col0:2,col3:'Admin', col1: 'hasina', col2: 'mui@hgh.com' },
         { id: 3,col0:3,col3:'Admin', col1: 'MUI', col2: 'mui@hgh.com' },
       ];
       
-      const columns: GridColDef[] = [
+      const columns = [
         { field: 'col0', headerName: 'Id', width: 150 },
         { field: 'col1', headerName: 'Nom', width: 150 },
         { field: 'col2', headerName: 'Email', width: 150 },

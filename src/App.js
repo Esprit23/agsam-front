@@ -37,9 +37,9 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2500);
+    }, 1500);
   },[])
-  const [isLoggedIn, setLoggedIn ] = useState(false);
+  const [isLoggedIn, setLoggedIn ] = useState(true);
 
 
   return (

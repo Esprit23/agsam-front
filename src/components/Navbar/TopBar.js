@@ -57,7 +57,7 @@ function TopBar({funcSetIsMobile}){
             
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="fixed" elevation={5}>
-                <Container maxWidth="xl" display='flex'  style={{sm:{marginLeft:"200px"} , backgroundColor:'#363949' }}>
+                <Container maxWidth="1200px" display='flex'  style={{sm:{marginLeft:"200px"} , backgroundColor:'#363949' }}>
                 <Toolbar  display='flex'  >
                     <IconButton
                             size="large"

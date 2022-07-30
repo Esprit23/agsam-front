@@ -45,9 +45,7 @@ const itemData = [
     img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
     title: 'Breakfast',
     author: '@bkristastucchio',
-    rows: 2,
-    cols: 2,
-    featured: true,
+   
   },
   {
     img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
@@ -85,7 +83,7 @@ const itemData = [
     author: '@tjdragotta',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+   img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
     title: 'Fern',
     author: '@katie_wasserman',
   },
@@ -93,8 +91,7 @@ const itemData = [
     img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
     title: 'Mushrooms',
     author: '@silverdalex',
-    rows: 2,
-    cols: 2,
+   
   },
   {
     img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',

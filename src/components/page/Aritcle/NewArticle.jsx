@@ -49,30 +49,8 @@ export default function NewArticle() {
                AJOUTER UN ARTICLE
             </h1>
         </div>
-       <form action="" className="articleForm">
-            <div className="articleFormLeft">
-            <label htmlFor="file">photo</label>
-                <input type="file" id="file"/>
-                <label htmlFor="code"> Code</label>
-                <input type="text" />
-                <label htmlFor="">Libelle</label>
-                <input type="text" />
-                <label htmlFor="">description</label>
-                <input type="text" />
-                <label htmlFor="">caracteristique</label>
-                <input type="text" />
-                <label htmlFor="type">Type</label>
-                <select name="" id="type">
-                    <option value="id">fk-type-id</option>
-                    <option value="id1">fk-type-id</option>
-                </select>
-                <br />
-                <button className="articleBtn">Enregistrer</button>
-            </div>
-            <div className="articleFormRight">
-                            <div className="articleUpload">
-                            <CardContent>
-                              <Grid container spacing={2}>
+                      <CardContent display='flex' >
+                              <Grid container  spacing={2} display='flex' flexDirection='column'>
                                   <Grid item xl={4} lg={4} md={6} sm={12} sx={12}>
                                   <TextField label="code "
                                       onChange={(e)=>setCode(e.target.value)} variant='standard' fullWidth/>
@@ -128,17 +106,12 @@ export default function NewArticle() {
                                       <br/>
                                       <br/>
                                     </Grid>
-                                  <Grid item xl={4} lg={4} md={6} sm={12} sx={12}>
+                              </Grid>
+                              
+                      </CardContent>
+                      <Grid item xl={4} lg={4} md={6} sm={12} sx={12}>
                                   {imageUrl ?(<a href={imageUrl} download><img src={imageUrl} alt='img/QRCode'></img></a>):null}
                                   </Grid>
-                              </Grid>
-                          </CardContent>
-                            </div>
-                            <button className="articleBtn">
-                                generer un Qrcode
-                            </button>
-                        </div>
-        </form>                   
     
     </div>
   )

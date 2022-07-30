@@ -63,6 +63,7 @@ export default function Article() {
         
       
         <div className="articleBottom">
+            
                     <form action="" className="articleForm">
                         <div className="articleFormLeft">
                             <label htmlFor="code"> Code</label>
